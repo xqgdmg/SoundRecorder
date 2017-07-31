@@ -36,10 +36,13 @@
 
             <SeekBar
                 android:id="@+id/seekbar"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/thumb"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="10dp"/>
 
             <RelativeLayout
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
